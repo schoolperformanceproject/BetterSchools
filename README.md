@@ -16,10 +16,10 @@
 Our project will analyze education data to discover relationships that lead to conclusions that will help inform curriculum design and classroom instructions.
 
 ### RESEARCH QUESTIONS TO ANSWER
-*Is there a relationship between teacher data (length of time in classroom, salary, highest degree earned) and student achievement?
-*Is there a relationship between geographic location and student achievement?
-*Is there a relationship between poverty and student achievement?
-*If these relationships exist, what conclusions can we draw to implement practices that will improve student outcomes.
+1. Is there a relationship between teacher data (length of time in classroom, salary, highest degree earned) and student achievement?
+2. Is there a relationship between geographic location and student achievement?
+3. Is there a relationship between poverty and student achievement?
+4. If these relationships exist, what conclusions can we draw to implement practices that will improve student outcomes.
 
 ### DATA SOURCES OR DATA SETS TO BE USED
 Data downloads from the Texas Academic Performance Report issued each year by the Texas Education Agency (https://rptsvr1.tea.texas.gov/perfreport/tapr/2017/download/DownloadData.html). Downloads from other years can be accessed by simply changing the year in the url.
