@@ -1,0 +1,4384 @@
+<!DOCTYPE html>
+<!-- saved from url=(0076)https://rptsvr1.tea.texas.gov/perfreport/tapr/2017/download/campstaar1a.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+ <title>2017 TAPR Advanced Data Download</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- CSS -->
+    <link href="./2017 TAPR Advanced Data Download_files/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="./2017 TAPR Advanced Data Download_files/tea.css" rel="stylesheet" media="screen">
+    <link href="./2017 TAPR Advanced Data Download_files/print.css" rel="stylesheet" media="print">
+    <link href="./2017 TAPR Advanced Data Download_files/font-awesome.min.css" rel="stylesheet">
+    
+    <!-- JAVASCRIPT -->
+    <script type="text/javascript" async="" src="./2017 TAPR Advanced Data Download_files/siteanalyze_77443.js.download"></script><script type="text/javascript" async="" src="./2017 TAPR Advanced Data Download_files/ga.js.download"></script><script src="./2017 TAPR Advanced Data Download_files/jquery-1.10.1.min.js.download"></script>
+    <script src="./2017 TAPR Advanced Data Download_files/jquery-accessibleMegaMenu.js.download"></script>
+    <script src="./2017 TAPR Advanced Data Download_files/jquery.sidr.js.download"></script>
+    <script src="./2017 TAPR Advanced Data Download_files/bootstrap.min.js.download"></script>
+    <script src="./2017 TAPR Advanced Data Download_files/tea.js.download"></script>
+
+                            
+<script language="JavaScript">
+
+function validate() {
+	if (document.joe.form.value=="0") {
+		window.alert ("You must select a data format.");
+		document.joe.form.focus();
+		return false;
+	}
+	if (document.joe.level.value=="0") {
+		window.alert ("You must select an aggregate level.");
+		document.joe.level.focus();
+		return false;
+	}
+	if (document.joe.type.value=="0") {
+		window.alert ("You must select test type.");
+		document.joe.type.focus();
+		return false;
+	}
+	if (document.joe.grade.value=="0") {
+		window.alert ("You must select a grade level.");
+		document.joe.grade.focus();
+		return false;
+	}
+	if (document.joe.file.value=="0") {
+		window.alert ("You must select year.");
+		document.joe.file.focus();
+		return false;
+	}
+	if (document.joe.type.value=="s") {
+		var yr = document.joe.file.value
+		yr = yr.replace('fy', '20')
+		yr = parseInt(yr)
+		//window.alert(yr);
+		
+		if ((yr > 2009) && (document.joe.grade.value > 5)) {
+			window.alert ("For year 2010 and after, Spanish files are only available for grades 3 through 5.");
+			return false;		
+		} 
+		else if (document.joe.grade.value > 6) {
+			window.alert ("For year 2009 and earlier, Spanish files are only available for grades 3 through 6.");
+			return false;
+		}
+		else {
+			return true;
+		}
+	}//end check spanish files	
+}
+</script>
+
+<script type="text/javascript">
+
+function Search(){
+ $( "#searchForm" ).submit();
+}
+
+
+</script>
+
+
+
+</head>
+<body class="template_grid" id="tapr" marginwidth="0" marginheight="0" topmargin="0" leftmargin="20" style="">
+
+
+     <!-- SKIP TO CONTENT LINK FOR SCREEN READERS -->
+    <a href="https://rptsvr1.tea.texas.gov/perfreport/tapr/2017/download/campstaar1a.html#main-content" class="skip">Skip to content</a>
+ <!-- BRAND BAR and HEADER -->   
+<!-- BRAND BAR -->
+	<nav id="brand-bar">
+		<div class="brand-bar">
+			<div class="container">
+				<div class="row">
+					<div class="span12">
+              
+
+						<p>
+							<a href="http://tea.texas.gov/">TEA Website</a> 
+                            <a href="http://tea.texas.gov/interiorpage.aspx?id=25769815059">A-Z Index</a> <a href="http://tea.texas.gov/About_TEA/Contact/">Contact TEA</a> 
+							<a href="https://public.govdelivery.com/accounts/TXTEA/subscriber/new/">Sign Up For Updates</a> 
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+    <!-- TABLET BAR -->
+<!--    <div class="mobile-bar">
+        <div class="container">
+            <div class="row">
+                <div class="span12">
+                    <p><a href="" title="A-Z Index">A-Z Index</a> <a href="" title="Applications">Applications</a> <a href="" title="Contact">Contact</a></p>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    
+    <!-- TABLET BAR -->
+<!--    <div class="tablet-bar">
+        <div class="container">
+            <div class="row">
+                <div class="span12">
+                    <a id="right-menu" href="#sidr-right">Applications <i class="fa fa-bars fa-lg"></i></a>
+                    <a id="left-menu" href="#sidr-left"><i class="fa fa-bars fa-lg"></i> Menu</a>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    
+    <!-- PAGE HEADER -->
+    <header id="header">
+    	<div class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="span12 header-wrapper">
+                        <div class="mobile-menu-toggle"><i class="fa fa-bars fa-3x"></i></div>
+                        <div class="logo"><a href="http://tea.texas.gov/" title="TEA Homepage"><img src="./2017 TAPR Advanced Data Download_files/tea-logo-header-2.png" alt="Texas Education Agency"></a></div>
+                    	<div class="search-form hide-mobile">
+                            	<div class="input-append">
+                                  <form id="searchForm" method="GET" action="http://search.tea.state.tx.us/search">  <label class="help-inline" for="search-field">Search</label>
+
+    <input type="hidden" name="site" value="default_collection"> 
+    <input type="hidden" name="client" value="default_frontend"> 
+    <input type="hidden" name="proxystylesheet" value="default_frontend"> 
+    <input type="hidden" name="output" value="xml_no_dtd"> 
+<input type="hidden" name="access" value="p">
+
+                                    <input class="span5" name="q" id="search-field" type="text">
+                                    <button class="btn btn-search" type="button" onclick="Search();"><i class="fa fa-search fa-lg"></i></button>   </form>
+                                </div>
+                        </div> 
+                        <!--<div class="utility-nav hide-mobile">
+                        	<p><a href="http://tea.texas.gov/interiorpage.aspx?id=25769815059" title="A-Z Index">A-Z Index</a> <a href="" title="Calendars">Calendars</a> <a href="" title="TEA Jobs">TEA Jobs</a> <a href="" title="Sign up for Updates">Sign Up for Updates</a> <a href="" title="Contact">Contact</a></p>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+   </header>
+
+<div class="page_body">
+<div class="container">
+<div class="row-fluid">
+<div class="span12">
+<main id="main-content">
+<div class="main-content">
+<!-- search start -->
+<!-- search end -->
+
+<div align="center">
+<p align="center"><font size="4" face="Verdana, Arial, Helvetica,sans-serif">
+<strong> Campus STAAR Data - Approaches Grade Level or Above (Grades 3, 4, &amp; 5)<br>Primary Student Groups</strong></font>
+<br>
+</p><div align="left">
+<table cellpadding="1" cellspacing="1" border="1" width="760" leftmargin="0" rightmargin="" class="180">
+<colgroup>
+<col><col><col><col><col>
+</colgroup>
+<thead>
+<tr>
+<th width="107" class="l Header" scope="col"><div align="left"><font size="2"><strong>NAME</strong></font></div></th>
+<th width="60" class="l Header" scope="col"><font size="2"><strong>TYPE</strong></font></th>
+<th width="30" class="l Header" scope="col"><div align="left"><font size="2"><strong>LENGTH</strong></font></div></th>
+<th width="420" class="l Header" scope="col"><div align="left"><font size="2"><strong>LABEL</strong></font></div></th>
+</tr>
+</thead><tbody>
+<tr>
+<td>CAMPUS </td>
+<td>Character </td>
+<td><div align="center">9 </div></td>
+<td nowrap="">Campus Number </td>
+</tr>
+<tr>
+<td>CB03AMA1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 3, African American, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CB03AMA1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 3, African American, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CB03ARE1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 3, African American, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CB03ARE1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 3, African American, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CA03AMA1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 3, All Students, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CA03AMA1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 3, All Students, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CA03ARE1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 3, All Students, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CA03ARE1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 3, All Students, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CI03AMA1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 3, American Indian, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CI03AMA1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 3, American Indian, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CI03ARE1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 3, American Indian, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CI03ARE1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 3, American Indian, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>C303AMA1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 3, Asian, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>C303AMA1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 3, Asian, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>C303ARE1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 3, Asian, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>C303ARE1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 3, Asian, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CR03AMA1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 3, At Risk, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CR03AMA1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 3, At Risk, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CR03ARE1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 3, At Risk, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CR03ARE1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 3, At Risk, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CL03AMA1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 3, ELL, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CL03AMA1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 3, ELL, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CL03ARE1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 3, ELL, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CL03ARE1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 3, ELL, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CE03AMA1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 3, Econ Disadv, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CE03AMA1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 3, Econ Disadv, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CE03ARE1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 3, Econ Disadv, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CE03ARE1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 3, Econ Disadv, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CF03AMA1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 3, Female, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CF03AMA1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 3, Female, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CF03ARE1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 3, Female, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CF03ARE1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 3, Female, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CH03AMA1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 3, Hispanic, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CH03AMA1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 3, Hispanic, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CH03ARE1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 3, Hispanic, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CH03ARE1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 3, Hispanic, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CM03AMA1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 3, Male, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CM03AMA1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 3, Male, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CM03ARE1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 3, Male, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CM03ARE1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 3, Male, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>C403AMA1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 3, Pacific Islander, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>C403AMA1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 3, Pacific Islander, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>C403ARE1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 3, Pacific Islander, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>C403ARE1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 3, Pacific Islander, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CS03AMA1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 3, Special Ed, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CS03AMA1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 3, Special Ed, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CS03ARE1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 3, Special Ed, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CS03ARE1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 3, Special Ed, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>C203AMA1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 3, Two or More Races, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>C203AMA1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 3, Two or More Races, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>C203ARE1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 3, Two or More Races, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>C203ARE1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 3, Two or More Races, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CW03AMA1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 3, White, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CW03AMA1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 3, White, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CW03ARE1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 3, White, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CW03ARE1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 3, White, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CB04AMA1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, African American, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CB04AMA1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, African American, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CB04ARE1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, African American, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CB04ARE1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, African American, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CB04AWR1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, African American, STAAR Writing Numerator </td>
+</tr>
+<tr>
+<td>CB04AWR1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, African American, STAAR Writing Rate </td>
+</tr>
+<tr>
+<td>CA04AMA1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, All Students, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CA04AMA1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, All Students, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CA04ARE1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, All Students, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CA04ARE1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, All Students, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CA04AWR1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, All Students, STAAR Writing Numerator </td>
+</tr>
+<tr>
+<td>CA04AWR1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, All Students, STAAR Writing Rate </td>
+</tr>
+<tr>
+<td>CI04AMA1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, American Indian, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CI04AMA1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, American Indian, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CI04ARE1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, American Indian, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CI04ARE1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, American Indian, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CI04AWR1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, American Indian, STAAR Writing Numerator </td>
+</tr>
+<tr>
+<td>CI04AWR1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, American Indian, STAAR Writing Rate </td>
+</tr>
+<tr>
+<td>C304AMA1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, Asian, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>C304AMA1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, Asian, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>C304ARE1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, Asian, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>C304ARE1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, Asian, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>C304AWR1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, Asian, STAAR Writing Numerator </td>
+</tr>
+<tr>
+<td>C304AWR1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, Asian, STAAR Writing Rate </td>
+</tr>
+<tr>
+<td>CR04AMA1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, At Risk, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CR04AMA1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, At Risk, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CR04ARE1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, At Risk, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CR04ARE1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, At Risk, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CR04AWR1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, At Risk, STAAR Writing Numerator </td>
+</tr>
+<tr>
+<td>CR04AWR1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, At Risk, STAAR Writing Rate </td>
+</tr>
+<tr>
+<td>CL04AMA1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, ELL, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CL04AMA1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, ELL, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CL04ARE1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, ELL, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CL04ARE1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, ELL, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CL04AWR1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, ELL, STAAR Writing Numerator </td>
+</tr>
+<tr>
+<td>CL04AWR1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, ELL, STAAR Writing Rate </td>
+</tr>
+<tr>
+<td>CE04AMA1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, Econ Disadv, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CE04AMA1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, Econ Disadv, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CE04ARE1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, Econ Disadv, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CE04ARE1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, Econ Disadv, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CE04AWR1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, Econ Disadv, STAAR Writing Numerator </td>
+</tr>
+<tr>
+<td>CE04AWR1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, Econ Disadv, STAAR Writing Rate </td>
+</tr>
+<tr>
+<td>CF04AMA1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, Female, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CF04AMA1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, Female, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CF04ARE1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, Female, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CF04ARE1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, Female, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CF04AWR1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, Female, STAAR Writing Numerator </td>
+</tr>
+<tr>
+<td>CF04AWR1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, Female, STAAR Writing Rate </td>
+</tr>
+<tr>
+<td>CH04AMA1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, Hispanic, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CH04AMA1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, Hispanic, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CH04ARE1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, Hispanic, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CH04ARE1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, Hispanic, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CH04AWR1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, Hispanic, STAAR Writing Numerator </td>
+</tr>
+<tr>
+<td>CH04AWR1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, Hispanic, STAAR Writing Rate </td>
+</tr>
+<tr>
+<td>CM04AMA1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, Male, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CM04AMA1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, Male, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CM04ARE1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, Male, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CM04ARE1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, Male, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CM04AWR1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, Male, STAAR Writing Numerator </td>
+</tr>
+<tr>
+<td>CM04AWR1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, Male, STAAR Writing Rate </td>
+</tr>
+<tr>
+<td>C404AMA1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, Pacific Islander, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>C404AMA1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, Pacific Islander, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>C404ARE1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, Pacific Islander, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>C404ARE1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, Pacific Islander, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>C404AWR1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, Pacific Islander, STAAR Writing Numerator </td>
+</tr>
+<tr>
+<td>C404AWR1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, Pacific Islander, STAAR Writing Rate </td>
+</tr>
+<tr>
+<td>CS04AMA1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, Special Ed, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CS04AMA1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, Special Ed, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CS04ARE1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, Special Ed, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CS04ARE1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, Special Ed, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CS04AWR1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, Special Ed, STAAR Writing Numerator </td>
+</tr>
+<tr>
+<td>CS04AWR1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, Special Ed, STAAR Writing Rate </td>
+</tr>
+<tr>
+<td>C204AMA1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, Two or More Races, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>C204AMA1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, Two or More Races, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>C204ARE1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, Two or More Races, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>C204ARE1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, Two or More Races, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>C204AWR1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, Two or More Races, STAAR Writing Numerator </td>
+</tr>
+<tr>
+<td>C204AWR1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, Two or More Races, STAAR Writing Rate </td>
+</tr>
+<tr>
+<td>CW04AMA1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, White, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CW04AMA1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, White, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CW04ARE1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, White, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CW04ARE1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, White, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CW04AWR1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, White, STAAR Writing Numerator </td>
+</tr>
+<tr>
+<td>CW04AWR1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 4, White, STAAR Writing Rate </td>
+</tr>
+<tr>
+<td>CB05AMA1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, African American, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CB05AMA1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, African American, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CB05ARE1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, African American, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CB05ARE1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, African American, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CB05ASC1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, African American, STAAR Science Numerator </td>
+</tr>
+<tr>
+<td>CB05ASC1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, African American, STAAR Science Rate </td>
+</tr>
+<tr>
+<td>CA05AMA1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, All Students, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CA05AMA1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, All Students, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CA05ARE1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, All Students, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CA05ARE1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, All Students, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CA05ASC1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, All Students, STAAR Science Numerator </td>
+</tr>
+<tr>
+<td>CA05ASC1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, All Students, STAAR Science Rate </td>
+</tr>
+<tr>
+<td>CI05AMA1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, American Indian, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CI05AMA1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, American Indian, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CI05ARE1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, American Indian, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CI05ARE1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, American Indian, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CI05ASC1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, American Indian, STAAR Science Numerator </td>
+</tr>
+<tr>
+<td>CI05ASC1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, American Indian, STAAR Science Rate </td>
+</tr>
+<tr>
+<td>C305AMA1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, Asian, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>C305AMA1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, Asian, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>C305ARE1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, Asian, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>C305ARE1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, Asian, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>C305ASC1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, Asian, STAAR Science Numerator </td>
+</tr>
+<tr>
+<td>C305ASC1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, Asian, STAAR Science Rate </td>
+</tr>
+<tr>
+<td>CR05AMA1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, At Risk, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CR05AMA1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, At Risk, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CR05ARE1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, At Risk, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CR05ARE1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, At Risk, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CR05ASC1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, At Risk, STAAR Science Numerator </td>
+</tr>
+<tr>
+<td>CR05ASC1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, At Risk, STAAR Science Rate </td>
+</tr>
+<tr>
+<td>CL05AMA1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, ELL, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CL05AMA1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, ELL, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CL05ARE1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, ELL, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CL05ARE1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, ELL, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CL05ASC1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, ELL, STAAR Science Numerator </td>
+</tr>
+<tr>
+<td>CL05ASC1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, ELL, STAAR Science Rate </td>
+</tr>
+<tr>
+<td>CE05AMA1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, Econ Disadv, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CE05AMA1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, Econ Disadv, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CE05ARE1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, Econ Disadv, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CE05ARE1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, Econ Disadv, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CE05ASC1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, Econ Disadv, STAAR Science Numerator </td>
+</tr>
+<tr>
+<td>CE05ASC1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, Econ Disadv, STAAR Science Rate </td>
+</tr>
+<tr>
+<td>CF05AMA1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, Female, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CF05AMA1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, Female, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CF05ARE1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, Female, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CF05ARE1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, Female, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CF05ASC1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, Female, STAAR Science Numerator </td>
+</tr>
+<tr>
+<td>CF05ASC1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, Female, STAAR Science Rate </td>
+</tr>
+<tr>
+<td>CH05AMA1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, Hispanic, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CH05AMA1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, Hispanic, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CH05ARE1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, Hispanic, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CH05ARE1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, Hispanic, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CH05ASC1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, Hispanic, STAAR Science Numerator </td>
+</tr>
+<tr>
+<td>CH05ASC1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, Hispanic, STAAR Science Rate </td>
+</tr>
+<tr>
+<td>CM05AMA1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, Male, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CM05AMA1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, Male, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CM05ARE1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, Male, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CM05ARE1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, Male, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CM05ASC1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, Male, STAAR Science Numerator </td>
+</tr>
+<tr>
+<td>CM05ASC1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, Male, STAAR Science Rate </td>
+</tr>
+<tr>
+<td>C405AMA1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, Pacific Islander, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>C405AMA1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, Pacific Islander, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>C405ARE1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, Pacific Islander, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>C405ARE1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, Pacific Islander, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>C405ASC1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, Pacific Islander, STAAR Science Numerator </td>
+</tr>
+<tr>
+<td>C405ASC1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, Pacific Islander, STAAR Science Rate </td>
+</tr>
+<tr>
+<td>CS05AMA1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, Special Ed, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CS05AMA1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, Special Ed, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CS05ARE1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, Special Ed, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CS05ARE1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, Special Ed, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CS05ASC1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, Special Ed, STAAR Science Numerator </td>
+</tr>
+<tr>
+<td>CS05ASC1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, Special Ed, STAAR Science Rate </td>
+</tr>
+<tr>
+<td>C205AMA1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, Two or More Races, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>C205AMA1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, Two or More Races, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>C205ARE1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, Two or More Races, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>C205ARE1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, Two or More Races, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>C205ASC1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, Two or More Races, STAAR Science Numerator </td>
+</tr>
+<tr>
+<td>C205ASC1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, Two or More Races, STAAR Science Rate </td>
+</tr>
+<tr>
+<td>CW05AMA1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, White, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CW05AMA1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, White, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CW05ARE1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, White, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CW05ARE1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, White, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CW05ASC1S16N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, White, STAAR Science Numerator </td>
+</tr>
+<tr>
+<td>CW05ASC1S16R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Index 1 (Phase-in Level II &amp; PM_ELL), Grade 5, White, STAAR Science Rate </td>
+</tr>
+<tr>
+<td>CB03AMA1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 3, African American, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CB03ARE1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 3, African American, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CA03AMA1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 3, All Students, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CA03ARE1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 3, All Students, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CI03AMA1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 3, American Indian, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CI03ARE1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 3, American Indian, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>C303AMA1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 3, Asian, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>C303ARE1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 3, Asian, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CR03AMA1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 3, At Risk, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CR03ARE1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 3, At Risk, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CL03AMA1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 3, ELL, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CL03ARE1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 3, ELL, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CE03AMA1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 3, Econ Disadv, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CE03ARE1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 3, Econ Disadv, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CF03AMA1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 3, Female, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CF03ARE1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 3, Female, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CH03AMA1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 3, Hispanic, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CH03ARE1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 3, Hispanic, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CM03AMA1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 3, Male, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CM03ARE1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 3, Male, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>C403AMA1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 3, Pacific Islander, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>C403ARE1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 3, Pacific Islander, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CS03AMA1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 3, Special Ed, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CS03ARE1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 3, Special Ed, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>C203AMA1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 3, Two or More Races, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>C203ARE1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 3, Two or More Races, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CW03AMA1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 3, White, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CW03ARE1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 3, White, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CB04AMA1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 4, African American, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CB04ARE1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 4, African American, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CB04AWR1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 4, African American, STAAR Writing Denominator </td>
+</tr>
+<tr>
+<td>CA04AMA1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 4, All Students, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CA04ARE1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 4, All Students, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CA04AWR1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 4, All Students, STAAR Writing Denominator </td>
+</tr>
+<tr>
+<td>CI04AMA1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 4, American Indian, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CI04ARE1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 4, American Indian, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CI04AWR1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 4, American Indian, STAAR Writing Denominator </td>
+</tr>
+<tr>
+<td>C304AMA1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 4, Asian, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>C304ARE1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 4, Asian, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>C304AWR1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 4, Asian, STAAR Writing Denominator </td>
+</tr>
+<tr>
+<td>CR04AMA1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 4, At Risk, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CR04ARE1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 4, At Risk, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CR04AWR1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 4, At Risk, STAAR Writing Denominator </td>
+</tr>
+<tr>
+<td>CL04AMA1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 4, ELL, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CL04ARE1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 4, ELL, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CL04AWR1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 4, ELL, STAAR Writing Denominator </td>
+</tr>
+<tr>
+<td>CE04AMA1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 4, Econ Disadv, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CE04ARE1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 4, Econ Disadv, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CE04AWR1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 4, Econ Disadv, STAAR Writing Denominator </td>
+</tr>
+<tr>
+<td>CF04AMA1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 4, Female, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CF04ARE1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 4, Female, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CF04AWR1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 4, Female, STAAR Writing Denominator </td>
+</tr>
+<tr>
+<td>CH04AMA1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 4, Hispanic, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CH04ARE1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 4, Hispanic, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CH04AWR1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 4, Hispanic, STAAR Writing Denominator </td>
+</tr>
+<tr>
+<td>CM04AMA1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 4, Male, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CM04ARE1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 4, Male, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CM04AWR1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 4, Male, STAAR Writing Denominator </td>
+</tr>
+<tr>
+<td>C404AMA1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 4, Pacific Islander, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>C404ARE1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 4, Pacific Islander, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>C404AWR1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 4, Pacific Islander, STAAR Writing Denominator </td>
+</tr>
+<tr>
+<td>CS04AMA1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 4, Special Ed, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CS04ARE1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 4, Special Ed, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CS04AWR1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 4, Special Ed, STAAR Writing Denominator </td>
+</tr>
+<tr>
+<td>C204AMA1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 4, Two or More Races, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>C204ARE1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 4, Two or More Races, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>C204AWR1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 4, Two or More Races, STAAR Writing Denominator </td>
+</tr>
+<tr>
+<td>CW04AMA1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 4, White, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CW04ARE1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 4, White, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CW04AWR1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 4, White, STAAR Writing Denominator </td>
+</tr>
+<tr>
+<td>CB05AMA1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 5, African American, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CB05ARE1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 5, African American, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CB05ASC1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 5, African American, STAAR Science Denominator </td>
+</tr>
+<tr>
+<td>CA05AMA1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 5, All Students, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CA05ARE1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 5, All Students, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CA05ASC1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 5, All Students, STAAR Science Denominator </td>
+</tr>
+<tr>
+<td>CI05AMA1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 5, American Indian, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CI05ARE1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 5, American Indian, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CI05ASC1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 5, American Indian, STAAR Science Denominator </td>
+</tr>
+<tr>
+<td>C305AMA1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 5, Asian, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>C305ARE1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 5, Asian, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>C305ASC1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 5, Asian, STAAR Science Denominator </td>
+</tr>
+<tr>
+<td>CR05AMA1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 5, At Risk, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CR05ARE1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 5, At Risk, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CR05ASC1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 5, At Risk, STAAR Science Denominator </td>
+</tr>
+<tr>
+<td>CL05AMA1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 5, ELL, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CL05ARE1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 5, ELL, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CL05ASC1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 5, ELL, STAAR Science Denominator </td>
+</tr>
+<tr>
+<td>CE05AMA1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 5, Econ Disadv, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CE05ARE1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 5, Econ Disadv, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CE05ASC1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 5, Econ Disadv, STAAR Science Denominator </td>
+</tr>
+<tr>
+<td>CF05AMA1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 5, Female, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CF05ARE1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 5, Female, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CF05ASC1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 5, Female, STAAR Science Denominator </td>
+</tr>
+<tr>
+<td>CH05AMA1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 5, Hispanic, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CH05ARE1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 5, Hispanic, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CH05ASC1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 5, Hispanic, STAAR Science Denominator </td>
+</tr>
+<tr>
+<td>CM05AMA1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 5, Male, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CM05ARE1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 5, Male, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CM05ASC1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 5, Male, STAAR Science Denominator </td>
+</tr>
+<tr>
+<td>C405AMA1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 5, Pacific Islander, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>C405ARE1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 5, Pacific Islander, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>C405ASC1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 5, Pacific Islander, STAAR Science Denominator </td>
+</tr>
+<tr>
+<td>CS05AMA1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 5, Special Ed, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CS05ARE1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 5, Special Ed, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CS05ASC1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 5, Special Ed, STAAR Science Denominator </td>
+</tr>
+<tr>
+<td>C205AMA1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 5, Two or More Races, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>C205ARE1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 5, Two or More Races, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>C205ASC1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 5, Two or More Races, STAAR Science Denominator </td>
+</tr>
+<tr>
+<td>CW05AMA1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 5, White, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CW05ARE1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 5, White, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CW05ASC1016D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2016 Index 1: Performance, Grade 5, White, STAAR Science Denominator </td>
+</tr>
+<tr>
+<td>CB03AMA1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 3, African American, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CB03AMA1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 3, African American, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CB03ARE1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 3, African American, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CB03ARE1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 3, African American, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CA03AMA1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 3, All Students, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CA03AMA1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 3, All Students, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CA03ARE1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 3, All Students, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CA03ARE1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 3, All Students, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CI03AMA1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 3, American Indian, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CI03AMA1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 3, American Indian, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CI03ARE1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 3, American Indian, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CI03ARE1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 3, American Indian, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>C303AMA1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 3, Asian, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>C303AMA1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 3, Asian, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>C303ARE1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 3, Asian, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>C303ARE1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 3, Asian, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CR03AMA1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 3, At Risk, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CR03AMA1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 3, At Risk, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CR03ARE1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 3, At Risk, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CR03ARE1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 3, At Risk, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CL03AMA1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 3, ELL, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CL03AMA1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 3, ELL, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CL03ARE1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 3, ELL, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CL03ARE1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 3, ELL, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CE03AMA1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 3, Econ Disadv, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CE03AMA1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 3, Econ Disadv, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CE03ARE1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 3, Econ Disadv, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CE03ARE1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 3, Econ Disadv, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CF03AMA1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 3, Female, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CF03AMA1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 3, Female, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CF03ARE1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 3, Female, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CF03ARE1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 3, Female, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CH03AMA1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 3, Hispanic, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CH03AMA1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 3, Hispanic, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CH03ARE1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 3, Hispanic, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CH03ARE1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 3, Hispanic, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CM03AMA1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 3, Male, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CM03AMA1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 3, Male, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CM03ARE1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 3, Male, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CM03ARE1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 3, Male, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>C403AMA1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 3, Pacific Islander, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>C403AMA1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 3, Pacific Islander, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>C403ARE1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 3, Pacific Islander, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>C403ARE1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 3, Pacific Islander, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CS03AMA1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 3, Special Ed, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CS03AMA1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 3, Special Ed, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CS03ARE1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 3, Special Ed, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CS03ARE1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 3, Special Ed, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>C203AMA1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 3, Two or More Races, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>C203AMA1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 3, Two or More Races, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>C203ARE1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 3, Two or More Races, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>C203ARE1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 3, Two or More Races, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CW03AMA1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 3, White, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CW03AMA1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 3, White, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CW03ARE1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 3, White, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CW03ARE1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 3, White, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CB04AMA1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, African American, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CB04AMA1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, African American, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CB04ARE1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, African American, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CB04ARE1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, African American, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CB04AWR1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, African American, STAAR Writing Numerator </td>
+</tr>
+<tr>
+<td>CB04AWR1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, African American, STAAR Writing Rate </td>
+</tr>
+<tr>
+<td>CA04AMA1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, All Students, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CA04AMA1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, All Students, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CA04ARE1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, All Students, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CA04ARE1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, All Students, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CA04AWR1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, All Students, STAAR Writing Numerator </td>
+</tr>
+<tr>
+<td>CA04AWR1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, All Students, STAAR Writing Rate </td>
+</tr>
+<tr>
+<td>CI04AMA1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, American Indian, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CI04AMA1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, American Indian, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CI04ARE1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, American Indian, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CI04ARE1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, American Indian, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CI04AWR1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, American Indian, STAAR Writing Numerator </td>
+</tr>
+<tr>
+<td>CI04AWR1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, American Indian, STAAR Writing Rate </td>
+</tr>
+<tr>
+<td>C304AMA1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, Asian, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>C304AMA1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, Asian, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>C304ARE1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, Asian, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>C304ARE1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, Asian, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>C304AWR1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, Asian, STAAR Writing Numerator </td>
+</tr>
+<tr>
+<td>C304AWR1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, Asian, STAAR Writing Rate </td>
+</tr>
+<tr>
+<td>CR04AMA1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, At Risk, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CR04AMA1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, At Risk, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CR04ARE1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, At Risk, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CR04ARE1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, At Risk, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CR04AWR1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, At Risk, STAAR Writing Numerator </td>
+</tr>
+<tr>
+<td>CR04AWR1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, At Risk, STAAR Writing Rate </td>
+</tr>
+<tr>
+<td>CL04AMA1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, ELL, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CL04AMA1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, ELL, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CL04ARE1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, ELL, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CL04ARE1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, ELL, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CL04AWR1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, ELL, STAAR Writing Numerator </td>
+</tr>
+<tr>
+<td>CL04AWR1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, ELL, STAAR Writing Rate </td>
+</tr>
+<tr>
+<td>CE04AMA1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, Econ Disadv, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CE04AMA1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, Econ Disadv, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CE04ARE1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, Econ Disadv, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CE04ARE1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, Econ Disadv, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CE04AWR1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, Econ Disadv, STAAR Writing Numerator </td>
+</tr>
+<tr>
+<td>CE04AWR1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, Econ Disadv, STAAR Writing Rate </td>
+</tr>
+<tr>
+<td>CF04AMA1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, Female, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CF04AMA1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, Female, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CF04ARE1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, Female, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CF04ARE1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, Female, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CF04AWR1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, Female, STAAR Writing Numerator </td>
+</tr>
+<tr>
+<td>CF04AWR1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, Female, STAAR Writing Rate </td>
+</tr>
+<tr>
+<td>CH04AMA1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, Hispanic, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CH04AMA1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, Hispanic, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CH04ARE1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, Hispanic, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CH04ARE1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, Hispanic, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CH04AWR1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, Hispanic, STAAR Writing Numerator </td>
+</tr>
+<tr>
+<td>CH04AWR1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, Hispanic, STAAR Writing Rate </td>
+</tr>
+<tr>
+<td>CM04AMA1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, Male, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CM04AMA1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, Male, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CM04ARE1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, Male, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CM04ARE1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, Male, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CM04AWR1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, Male, STAAR Writing Numerator </td>
+</tr>
+<tr>
+<td>CM04AWR1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, Male, STAAR Writing Rate </td>
+</tr>
+<tr>
+<td>C404AMA1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, Pacific Islander, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>C404AMA1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, Pacific Islander, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>C404ARE1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, Pacific Islander, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>C404ARE1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, Pacific Islander, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>C404AWR1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, Pacific Islander, STAAR Writing Numerator </td>
+</tr>
+<tr>
+<td>C404AWR1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, Pacific Islander, STAAR Writing Rate </td>
+</tr>
+<tr>
+<td>CS04AMA1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, Special Ed, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CS04AMA1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, Special Ed, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CS04ARE1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, Special Ed, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CS04ARE1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, Special Ed, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CS04AWR1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, Special Ed, STAAR Writing Numerator </td>
+</tr>
+<tr>
+<td>CS04AWR1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, Special Ed, STAAR Writing Rate </td>
+</tr>
+<tr>
+<td>C204AMA1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, Two or More Races, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>C204AMA1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, Two or More Races, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>C204ARE1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, Two or More Races, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>C204ARE1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, Two or More Races, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>C204AWR1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, Two or More Races, STAAR Writing Numerator </td>
+</tr>
+<tr>
+<td>C204AWR1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, Two or More Races, STAAR Writing Rate </td>
+</tr>
+<tr>
+<td>CW04AMA1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, White, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CW04AMA1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, White, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CW04ARE1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, White, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CW04ARE1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, White, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CW04AWR1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, White, STAAR Writing Numerator </td>
+</tr>
+<tr>
+<td>CW04AWR1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 4, White, STAAR Writing Rate </td>
+</tr>
+<tr>
+<td>CB05AMA1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, African American, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CB05AMA1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, African American, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CB05ARE1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, African American, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CB05ARE1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, African American, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CB05ASC1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, African American, STAAR Science Numerator </td>
+</tr>
+<tr>
+<td>CB05ASC1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, African American, STAAR Science Rate </td>
+</tr>
+<tr>
+<td>CA05AMA1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, All Students, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CA05AMA1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, All Students, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CA05ARE1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, All Students, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CA05ARE1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, All Students, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CA05ASC1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, All Students, STAAR Science Numerator </td>
+</tr>
+<tr>
+<td>CA05ASC1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, All Students, STAAR Science Rate </td>
+</tr>
+<tr>
+<td>CI05AMA1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, American Indian, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CI05AMA1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, American Indian, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CI05ARE1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, American Indian, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CI05ARE1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, American Indian, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CI05ASC1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, American Indian, STAAR Science Numerator </td>
+</tr>
+<tr>
+<td>CI05ASC1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, American Indian, STAAR Science Rate </td>
+</tr>
+<tr>
+<td>C305AMA1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, Asian, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>C305AMA1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, Asian, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>C305ARE1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, Asian, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>C305ARE1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, Asian, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>C305ASC1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, Asian, STAAR Science Numerator </td>
+</tr>
+<tr>
+<td>C305ASC1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, Asian, STAAR Science Rate </td>
+</tr>
+<tr>
+<td>CR05AMA1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, At Risk, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CR05AMA1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, At Risk, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CR05ARE1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, At Risk, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CR05ARE1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, At Risk, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CR05ASC1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, At Risk, STAAR Science Numerator </td>
+</tr>
+<tr>
+<td>CR05ASC1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, At Risk, STAAR Science Rate </td>
+</tr>
+<tr>
+<td>CL05AMA1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, ELL, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CL05AMA1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, ELL, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CL05ARE1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, ELL, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CL05ARE1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, ELL, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CL05ASC1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, ELL, STAAR Science Numerator </td>
+</tr>
+<tr>
+<td>CL05ASC1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, ELL, STAAR Science Rate </td>
+</tr>
+<tr>
+<td>CE05AMA1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, Econ Disadv, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CE05AMA1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, Econ Disadv, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CE05ARE1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, Econ Disadv, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CE05ARE1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, Econ Disadv, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CE05ASC1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, Econ Disadv, STAAR Science Numerator </td>
+</tr>
+<tr>
+<td>CE05ASC1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, Econ Disadv, STAAR Science Rate </td>
+</tr>
+<tr>
+<td>CF05AMA1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, Female, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CF05AMA1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, Female, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CF05ARE1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, Female, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CF05ARE1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, Female, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CF05ASC1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, Female, STAAR Science Numerator </td>
+</tr>
+<tr>
+<td>CF05ASC1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, Female, STAAR Science Rate </td>
+</tr>
+<tr>
+<td>CH05AMA1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, Hispanic, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CH05AMA1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, Hispanic, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CH05ARE1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, Hispanic, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CH05ARE1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, Hispanic, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CH05ASC1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, Hispanic, STAAR Science Numerator </td>
+</tr>
+<tr>
+<td>CH05ASC1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, Hispanic, STAAR Science Rate </td>
+</tr>
+<tr>
+<td>CM05AMA1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, Male, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CM05AMA1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, Male, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CM05ARE1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, Male, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CM05ARE1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, Male, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CM05ASC1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, Male, STAAR Science Numerator </td>
+</tr>
+<tr>
+<td>CM05ASC1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, Male, STAAR Science Rate </td>
+</tr>
+<tr>
+<td>C405AMA1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, Pacific Islander, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>C405AMA1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, Pacific Islander, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>C405ARE1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, Pacific Islander, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>C405ARE1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, Pacific Islander, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>C405ASC1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, Pacific Islander, STAAR Science Numerator </td>
+</tr>
+<tr>
+<td>C405ASC1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, Pacific Islander, STAAR Science Rate </td>
+</tr>
+<tr>
+<td>CS05AMA1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, Special Ed, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CS05AMA1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, Special Ed, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CS05ARE1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, Special Ed, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CS05ARE1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, Special Ed, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CS05ASC1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, Special Ed, STAAR Science Numerator </td>
+</tr>
+<tr>
+<td>CS05ASC1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, Special Ed, STAAR Science Rate </td>
+</tr>
+<tr>
+<td>C205AMA1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, Two or More Races, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>C205AMA1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, Two or More Races, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>C205ARE1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, Two or More Races, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>C205ARE1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, Two or More Races, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>C205ASC1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, Two or More Races, STAAR Science Numerator </td>
+</tr>
+<tr>
+<td>C205ASC1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, Two or More Races, STAAR Science Rate </td>
+</tr>
+<tr>
+<td>CW05AMA1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, White, STAAR Mathematics Numerator </td>
+</tr>
+<tr>
+<td>CW05AMA1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, White, STAAR Mathematics Rate </td>
+</tr>
+<tr>
+<td>CW05ARE1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, White, STAAR Reading/ELA Numerator </td>
+</tr>
+<tr>
+<td>CW05ARE1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, White, STAAR Reading/ELA Rate </td>
+</tr>
+<tr>
+<td>CW05ASC1S17N </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, White, STAAR Science Numerator </td>
+</tr>
+<tr>
+<td>CW05ASC1S17R </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Index 1 (Approaches Grade Level Standard), Grade 5, White, STAAR Science Rate </td>
+</tr>
+<tr>
+<td>CB03AMA1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 3, African American, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CB03ARE1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 3, African American, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CA03AMA1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 3, All Students, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CA03ARE1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 3, All Students, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CI03AMA1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 3, American Indian, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CI03ARE1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 3, American Indian, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>C303AMA1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 3, Asian, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>C303ARE1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 3, Asian, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CR03AMA1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 3, At Risk, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CR03ARE1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 3, At Risk, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CL03AMA1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 3, ELL, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CL03ARE1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 3, ELL, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CE03AMA1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 3, Econ Disadv, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CE03ARE1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 3, Econ Disadv, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CF03AMA1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 3, Female, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CF03ARE1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 3, Female, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CH03AMA1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 3, Hispanic, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CH03ARE1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 3, Hispanic, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CM03AMA1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 3, Male, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CM03ARE1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 3, Male, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>C403AMA1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 3, Pacific Islander, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>C403ARE1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 3, Pacific Islander, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CS03AMA1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 3, Special Ed, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CS03ARE1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 3, Special Ed, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>C203AMA1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 3, Two or More Races, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>C203ARE1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 3, Two or More Races, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CW03AMA1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 3, White, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CW03ARE1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 3, White, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CB04AMA1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 4, African American, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CB04ARE1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 4, African American, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CB04AWR1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 4, African American, STAAR Writing Denominator </td>
+</tr>
+<tr>
+<td>CA04AMA1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 4, All Students, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CA04ARE1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 4, All Students, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CA04AWR1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 4, All Students, STAAR Writing Denominator </td>
+</tr>
+<tr>
+<td>CI04AMA1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 4, American Indian, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CI04ARE1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 4, American Indian, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CI04AWR1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 4, American Indian, STAAR Writing Denominator </td>
+</tr>
+<tr>
+<td>C304AMA1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 4, Asian, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>C304ARE1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 4, Asian, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>C304AWR1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 4, Asian, STAAR Writing Denominator </td>
+</tr>
+<tr>
+<td>CR04AMA1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 4, At Risk, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CR04ARE1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 4, At Risk, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CR04AWR1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 4, At Risk, STAAR Writing Denominator </td>
+</tr>
+<tr>
+<td>CL04AMA1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 4, ELL, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CL04ARE1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 4, ELL, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CL04AWR1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 4, ELL, STAAR Writing Denominator </td>
+</tr>
+<tr>
+<td>CE04AMA1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 4, Econ Disadv, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CE04ARE1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 4, Econ Disadv, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CE04AWR1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 4, Econ Disadv, STAAR Writing Denominator </td>
+</tr>
+<tr>
+<td>CF04AMA1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 4, Female, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CF04ARE1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 4, Female, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CF04AWR1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 4, Female, STAAR Writing Denominator </td>
+</tr>
+<tr>
+<td>CH04AMA1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 4, Hispanic, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CH04ARE1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 4, Hispanic, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CH04AWR1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 4, Hispanic, STAAR Writing Denominator </td>
+</tr>
+<tr>
+<td>CM04AMA1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 4, Male, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CM04ARE1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 4, Male, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CM04AWR1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 4, Male, STAAR Writing Denominator </td>
+</tr>
+<tr>
+<td>C404AMA1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 4, Pacific Islander, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>C404ARE1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 4, Pacific Islander, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>C404AWR1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 4, Pacific Islander, STAAR Writing Denominator </td>
+</tr>
+<tr>
+<td>CS04AMA1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 4, Special Ed, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CS04ARE1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 4, Special Ed, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CS04AWR1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 4, Special Ed, STAAR Writing Denominator </td>
+</tr>
+<tr>
+<td>C204AMA1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 4, Two or More Races, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>C204ARE1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 4, Two or More Races, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>C204AWR1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 4, Two or More Races, STAAR Writing Denominator </td>
+</tr>
+<tr>
+<td>CW04AMA1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 4, White, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CW04ARE1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 4, White, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CW04AWR1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 4, White, STAAR Writing Denominator </td>
+</tr>
+<tr>
+<td>CB05AMA1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 5, African American, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CB05ARE1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 5, African American, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CB05ASC1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 5, African American, STAAR Science Denominator </td>
+</tr>
+<tr>
+<td>CA05AMA1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 5, All Students, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CA05ARE1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 5, All Students, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CA05ASC1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 5, All Students, STAAR Science Denominator </td>
+</tr>
+<tr>
+<td>CI05AMA1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 5, American Indian, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CI05ARE1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 5, American Indian, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CI05ASC1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 5, American Indian, STAAR Science Denominator </td>
+</tr>
+<tr>
+<td>C305AMA1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 5, Asian, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>C305ARE1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 5, Asian, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>C305ASC1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 5, Asian, STAAR Science Denominator </td>
+</tr>
+<tr>
+<td>CR05AMA1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 5, At Risk, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CR05ARE1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 5, At Risk, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CR05ASC1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 5, At Risk, STAAR Science Denominator </td>
+</tr>
+<tr>
+<td>CL05AMA1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 5, ELL, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CL05ARE1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 5, ELL, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CL05ASC1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 5, ELL, STAAR Science Denominator </td>
+</tr>
+<tr>
+<td>CE05AMA1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 5, Econ Disadv, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CE05ARE1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 5, Econ Disadv, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CE05ASC1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 5, Econ Disadv, STAAR Science Denominator </td>
+</tr>
+<tr>
+<td>CF05AMA1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 5, Female, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CF05ARE1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 5, Female, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CF05ASC1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 5, Female, STAAR Science Denominator </td>
+</tr>
+<tr>
+<td>CH05AMA1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 5, Hispanic, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CH05ARE1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 5, Hispanic, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CH05ASC1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 5, Hispanic, STAAR Science Denominator </td>
+</tr>
+<tr>
+<td>CM05AMA1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 5, Male, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CM05ARE1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 5, Male, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CM05ASC1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 5, Male, STAAR Science Denominator </td>
+</tr>
+<tr>
+<td>C405AMA1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 5, Pacific Islander, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>C405ARE1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 5, Pacific Islander, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>C405ASC1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 5, Pacific Islander, STAAR Science Denominator </td>
+</tr>
+<tr>
+<td>CS05AMA1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 5, Special Ed, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CS05ARE1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 5, Special Ed, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CS05ASC1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 5, Special Ed, STAAR Science Denominator </td>
+</tr>
+<tr>
+<td>C205AMA1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 5, Two or More Races, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>C205ARE1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 5, Two or More Races, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>C205ASC1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 5, Two or More Races, STAAR Science Denominator </td>
+</tr>
+<tr>
+<td>CW05AMA1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 5, White, STAAR Mathematics Denominator </td>
+</tr>
+<tr>
+<td>CW05ARE1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 5, White, STAAR Reading/ELA Denominator </td>
+</tr>
+<tr>
+<td>CW05ASC1017D </td>
+<td>Numeric </td>
+<td><div align="center">8 </div></td>
+<td nowrap="">Campus 2017 Index 1: Performance, Grade 5, White, STAAR Science Denominator </td>
+</tr>
+</tbody></table></div><br><div align="center"><strong>Number of Data Elements =      673</strong></div>
+<br>
+
+<!-- END OF YOUR CONTENT -->
+
+
+
+
+                   </div>
+                    </div></main>
+                </div>
+            </div>
+        </div>
+    </div>
+	<footer id="footer">
+		<div class="footer">
+			<div class="container">
+				<div class="row-fluid">
+					<div class="span2">
+						<div class="row-fluid">
+							<div class="span12 hide-mobile">
+								<a title="Texas Education Agency" href="http://www.tea.state.tx.us/"><img src="./2017 TAPR Advanced Data Download_files/tea-seal.png" alt="Texas Education Agency Seal"></a>
+							</div>
+						</div>
+					</div>
+					<div class="span10">
+						<div class="row-fluid">
+							<div class="span3">
+								<ul>
+									<li><a title="Texas Education Agency" href="http://tea.texas.gov/">Texas
+											Education Agency</a></li>
+									<li>1701 N. Congress Avenue</li>
+									<li>Austin, Texas, 78701</li>
+									<li>(512) 463-9734</li>
+									<li><a title="TEA Map" href="http://www.bing.com/maps/#JnE9LjE3MDErTm9ydGgrQ29uZ3Jlc3MrQXZlbnVlJTJjK0F1c3RpbiUyYytUZXhhcyUyYys3ODcwMSU3ZXNzdC4wJTdlcGcuMSZiYj01OS40NTI1NjcwODM4OTgzJTdlLTY5LjEyNDA2MjUlN2UyMi41MjYxNzIxNzMxMTc0JTdlLTEzMC4yOTU5Mzc1" target="_blank">Map</a> | <a title="Site Policies" href="http://tea.texas.gov/interiorpage.aspx?id=25769818374">Site Policies</a> | <a href="http://tea.texas.gov/sitemap/">Site Map</a></li>
+								</ul>
+
+							</div>
+
+							<!-- menuFooter -->
+
+
+							<div class="span3 hide-mobile">
+								<nav id="footer-nav-3">
+									<ul class="footer-menu">
+
+										<li><a href="http://tea.texas.gov/interiorpage.aspx?id=25769817700">Complaints</a></li>
+
+										<li><a href="http://tea.texas.gov/interiorpage.aspx?id=4857">Fraud
+											  Hotline</a></li>
+
+										<li><a href="http://tea.texas.gov/interiorpage.aspx?id=8060">Compact
+											  with Texans</a></li>
+
+										<li><a href="http://tea.texas.gov/interiorpage.aspx?id=25769805784">Public
+											  Information Requests</a></li>
+
+										<li><a href="http://tea.texas.gov/interiorpage.aspx?id=25769805784">Frequently
+												Asked Questions</a></li>
+
+									</ul>
+								</nav>
+							</div>
+
+
+							<div class="span3 hide-mobile">
+								<nav id="footer-nav-3">
+									<ul class="footer-menu">
+
+										<li><a href="http://tea.texas.gov/interiorpage.aspx?id=2147503292">ESCs</a></li>
+
+										<li><a href="http://www.texas.gov/">State of Texas</a></li>
+
+										<li><a href="http://www.capitol.state.tx.us/">Texas
+												Legislature</a></li>
+
+										<li><a href="http://governor.state.tx.us/homeland">Homeland
+												Security</a></li>
+
+									</ul>
+								</nav>
+							</div>
+
+
+							<div class="span3 hide-mobile">
+								<nav id="footer-nav-3">
+									<ul class="footer-menu">
+
+										<li><a href="https://www.tsl.texas.gov/trail/index.html">Trail</a></li>
+
+										<li><a href="http://tea.texas.gov/interiorpage.aspx?id=7995">Military
+											  Families</a></li>
+
+										<li><a href="http://www.texastransparency.org/">Where
+												Our Money Goes</a></li>
+
+										<li><a href="http://tea.texas.gov/interiorpage.aspx?id=25769815941">Equal
+											  Educational Opportunity</a></li>
+
+										<li><a href="http://www.governor.state.tx.us/disabilities/">Governor's
+												Committee on People with Disabilities</a></li>
+
+									</ul>
+								</nav>
+							</div>
+						</div>
+					</div>
+				</div>
+				<p class="copyright">© Copyright 2007-2015 Texas Education
+					Agency (TEA). All Rights Reserved.</p>
+			</div>
+		</div>
+	</footer>
+
+	<!-- MOBILE NAVIGATION -->
+<!--	<div id="sidr-left" class="sidr left">
+		<ul>
+		<li><a href="http://tea.texas.gov" title="TEA Home Page">TEA Website</a> </li>
+		<li><a href="http://tea.texas.gov/About_TEA/Contact/" title="Contact TEA">Contact TEA</a> </li>
+		<li><a href="https://public.govdelivery.com/accounts/TXTEA/subscriber/new" >Sign Up For Updates</a> </li>
+		</ul>
+	</div> -->
+	<!-- MOBILE BRAND BAR -->
+	<!--<div id="sidr-right" class="sidr right">
+		<ul>
+			<li><a href="http://tea.texas.gov" title="TEA Home Page">TEA Website</a> </li>
+		<li><a href="http://tea.texas.gov/About_TEA/Contact/" title="Contact TEA">Contact TEA</a> </li>
+		<li><a href="" title="https://public.govdelivery.com/accounts/TXTEA/subscriber/new" title="Sign Up For Updates">Sign Up For Updates</a> </li>
+		</ul>
+	</div> -->
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-43890902-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<script type="text/javascript">
+/*<![CDATA[*/
+(function() {
+var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+sz.src = '//us2.siteimprove.com/js/siteanalyze_77443.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+})();
+/*]]>*/
+</script>
+
+
+
+ 
+
+<div id="sidr-left" class="sidr left"></div><div id="sidr-right" class="sidr right"></div></body></html>
