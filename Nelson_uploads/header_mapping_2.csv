@@ -1,0 +1,505 @@
+﻿NAME,LABEL
+CB00AM04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Math - African American Numerator
+CA00AM04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Math - All Numerator
+CI00AM04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Math - American Indian Numerator
+C300AM04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Math - Asian Numerator
+CR00AM04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Math - At-Risk Numerator
+CL00AM04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Math - ELL Numerator
+CE00AM04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Math - Econ Disadv Numerator
+CF00AM04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Math - Female Numerator
+CH00AM04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Math - Hispanic Numerator
+CM00AM04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Math - Male Numerator
+C400AM04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Math - Pacific Islander Numerator
+CS00AM04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Math - Special Ed Numerator
+C200AM04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Math - Two or more races Numerator
+CW00AM04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Math - White Numerator
+CB00AR04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Reading - African American Numerator
+CA00AR04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Reading - All Numerator
+CI00AR04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Reading - American Indian Numerator
+C300AR04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Reading - Asian Numerator
+CR00AR04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Reading - At-Risk Numerator
+CL00AR04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Reading - ELL Numerator
+CE00AR04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Reading - Econ Disadv Numerator
+CF00AR04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Reading - Female Numerator
+CH00AR04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Reading - Hispanic Numerator
+CM00AR04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Reading - Male Numerator
+C400AR04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Reading - Pacific Islander Numerator
+CS00AR04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Reading - Special Ed Numerator
+C200AR04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Reading - Two or more races Numerator
+CW00AR04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Reading - White Numerator
+CB00AC04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Science - African American Numerator
+CA00AC04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Science - All Numerator
+CI00AC04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Science - American Indian Numerator
+C300AC04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Science - Asian Numerator
+CR00AC04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Science - At-Risk Numerator
+CL00AC04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Science - ELL Numerator
+CE00AC04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Science - Econ Disadv Numerator
+CF00AC04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Science - Female Numerator
+CH00AC04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Science - Hispanic Numerator
+CM00AC04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Science - Male Numerator
+C400AC04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Science - Pacific Islander Numerator
+CS00AC04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Science - Special Ed Numerator
+C200AC04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Science - Two or more races Numerator
+CW00AC04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Science - White Numerator
+CB00AS04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Social studies - African American Numerator
+CA00AS04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Social studies - All Numerator
+CI00AS04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Social studies - American Indian Numerator
+C300AS04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Social studies - Asian Numerator
+CR00AS04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Social studies - At-Risk Numerator
+CL00AS04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Social studies - ELL Numerator
+CE00AS04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Social studies - Econ Disadv Numerator
+CF00AS04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Social studies - Female Numerator
+CH00AS04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Social studies - Hispanic Numerator
+CM00AS04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Social studies - Male Numerator
+C400AS04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Social studies - Pacific Islander Numerator
+CS00AS04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Social studies - Special Ed Numerator
+C200AS04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Social studies - Two or more races Numerator
+CW00AS04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Social studies - White Numerator
+CB00A004216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Two or More Subjects - African American Numerator
+CA00A004216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Two or More Subjects - All Numerator
+CI00A004216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Two or More Subjects - American Indian Numerator
+C300A004216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Two or More Subjects - Asian Numerator
+CR00A004216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Two or More Subjects - At-Risk Numerator
+CL00A004216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Two or More Subjects - ELL Numerator
+CE00A004216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Two or More Subjects - Econ Disadv Numerator
+CF00A004216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Two or More Subjects - Female Numerator
+CH00A004216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Two or More Subjects - Hispanic Numerator
+CM00A004216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Two or More Subjects - Male Numerator
+C400A004216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Two or More Subjects - Pacific Islander Numerator
+CS00A004216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Two or More Subjects - Special Ed Numerator
+C200A004216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Two or More Subjects - Two or more races Numerator
+CW00A004216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Two or More Subjects - White Numerator
+CB00AW04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Writing - African American Numerator
+CA00AW04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Writing - All Numerator
+CI00AW04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Writing - American Indian Numerator
+C300AW04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Writing - Asian Numerator
+CR00AW04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Writing - At-Risk Numerator
+CL00AW04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Writing - ELL Numerator
+CE00AW04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Writing - Econ Disadv Numerator
+CF00AW04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Writing - Female Numerator
+CH00AW04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Writing - Hispanic Numerator
+CM00AW04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Writing - Male Numerator
+C400AW04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Writing - Pacific Islander Numerator
+CS00AW04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Writing - Special Ed Numerator
+C200AW04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Writing - Two or more races Numerator
+CW00AW04216N,Campus 2016 STAAR Postsecondary Readiness: Number of students meeting level 2 requirement for Writing - White Numerator
+CB00AM04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Math - African American Denominator
+CA00AM04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Math - All Denominator
+CI00AM04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Math - American Indian Denominator
+C300AM04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Math - Asian Denominator
+CR00AM04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Math - At-Risk Denominator
+CL00AM04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Math - ELL Denominator
+CE00AM04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Math - Econ Disadv Denominator
+CF00AM04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Math - Female Denominator
+CH00AM04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Math - Hispanic Denominator
+CM00AM04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Math - Male Denominator
+C400AM04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Math - Pacific Islander Denominator
+CS00AM04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Math - Special Ed Denominator
+C200AM04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Math - Two or more races Denominator
+CW00AM04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Math - White Denominator
+CB00AR04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Reading - African American Denominator
+CA00AR04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Reading - All Denominator
+CI00AR04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Reading - American Indian Denominator
+C300AR04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Reading - Asian Denominator
+CR00AR04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Reading - At-Risk Denominator
+CL00AR04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Reading - ELL Denominator
+CE00AR04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Reading - Econ Disadv Denominator
+CF00AR04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Reading - Female Denominator
+CH00AR04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Reading - Hispanic Denominator
+CM00AR04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Reading - Male Denominator
+C400AR04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Reading - Pacific Islander Denominator
+CS00AR04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Reading - Special Ed Denominator
+C200AR04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Reading - Two or more races Denominator
+CW00AR04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Reading - White Denominator
+CB00AC04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Science - African American Denominator
+CA00AC04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Science - All Denominator
+CI00AC04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Science - American Indian Denominator
+C300AC04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Science - Asian Denominator
+CR00AC04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Science - At-Risk Denominator
+CL00AC04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Science - ELL Denominator
+CE00AC04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Science - Econ Disadv Denominator
+CF00AC04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Science - Female Denominator
+CH00AC04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Science - Hispanic Denominator
+CM00AC04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Science - Male Denominator
+C400AC04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Science - Pacific Islander Denominator
+CS00AC04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Science - Special Ed Denominator
+C200AC04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Science - Two or more races Denominator
+CW00AC04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Science - White Denominator
+CB00AS04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Social studies - African American Denominator
+CA00AS04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Social studies - All Denominator
+CI00AS04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Social studies - American Indian Denominator
+C300AS04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Social studies - Asian Denominator
+CR00AS04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Social studies - At-Risk Denominator
+CL00AS04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Social studies - ELL Denominator
+CE00AS04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Social studies - Econ Disadv Denominator
+CF00AS04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Social studies - Female Denominator
+CH00AS04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Social studies - Hispanic Denominator
+CM00AS04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Social studies - Male Denominator
+C400AS04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Social studies - Pacific Islander Denominator
+CS00AS04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Social studies - Special Ed Denominator
+C200AS04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Social studies - Two or more races Denominator
+CW00AS04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Social studies - White Denominator
+CB00A004216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Two or More Subjects - African American Denominator
+CA00A004216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Two or More Subjects - All Denominator
+CI00A004216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Two or More Subjects - American Indian Denominator
+C300A004216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Two or More Subjects - Asian Denominator
+CR00A004216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Two or More Subjects - At-Risk Denominator
+CL00A004216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Two or More Subjects - ELL Denominator
+CE00A004216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Two or More Subjects - Econ Disadv Denominator
+CF00A004216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Two or More Subjects - Female Denominator
+CH00A004216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Two or More Subjects - Hispanic Denominator
+CM00A004216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Two or More Subjects - Male Denominator
+C400A004216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Two or More Subjects - Pacific Islander Denominator
+CS00A004216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Two or More Subjects - Special Ed Denominator
+C200A004216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Two or More Subjects - Two or more races Denominator
+CW00A004216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Two or More Subjects - White Denominator
+CB00AW04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Writing - African American Denominator
+CA00AW04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Writing - All Denominator
+CI00AW04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Writing - American Indian Denominator
+C300AW04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Writing - Asian Denominator
+CR00AW04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Writing - At-Risk Denominator
+CL00AW04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Writing - ELL Denominator
+CE00AW04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Writing - Econ Disadv Denominator
+CF00AW04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Writing - Female Denominator
+CH00AW04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Writing - Hispanic Denominator
+CM00AW04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Writing - Male Denominator
+C400AW04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Writing - Pacific Islander Denominator
+CS00AW04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Writing - Special Ed Denominator
+C200AW04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Writing - Two or more races Denominator
+CW00AW04216D,Campus 2016 STAAR Postsecondary Readiness: Number of students taking a test in Writing - White Denominator
+CB00AM04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Math - African American Rate
+CA00AM04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Math - All Rate
+CI00AM04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Math - American Indian Rate
+C300AM04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Math - Asian Rate
+CR00AM04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Math - At-Risk Rate
+CL00AM04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Math - ELL Rate
+CE00AM04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Math - Econ Disadv Rate
+CF00AM04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Math - Female Rate
+CH00AM04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Math - Hispanic Rate
+CM00AM04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Math - Male Rate
+C400AM04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Math - Pacific Islander Rate
+CS00AM04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Math - Special Ed Rate
+C200AM04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Math - Two or more races Rate
+CW00AM04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Math - White Rate
+CB00AR04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Reading - African American Rate
+CA00AR04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Reading - All Rate
+CI00AR04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Reading - American Indian Rate
+C300AR04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Reading - Asian Rate
+CR00AR04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Reading - At-Risk Rate
+CL00AR04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Reading - ELL Rate
+CE00AR04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Reading - Econ Disadv Rate
+CF00AR04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Reading - Female Rate
+CH00AR04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Reading - Hispanic Rate
+CM00AR04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Reading - Male Rate
+C400AR04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Reading - Pacific Islander Rate
+CS00AR04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Reading - Special Ed Rate
+C200AR04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Reading - Two or more races Rate
+CW00AR04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Reading - White Rate
+CB00AC04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Science - African American Rate
+CA00AC04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Science - All Rate
+CI00AC04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Science - American Indian Rate
+C300AC04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Science - Asian Rate
+CR00AC04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Science - At-Risk Rate
+CL00AC04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Science - ELL Rate
+CE00AC04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Science - Econ Disadv Rate
+CF00AC04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Science - Female Rate
+CH00AC04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Science - Hispanic Rate
+CM00AC04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Science - Male Rate
+C400AC04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Science - Pacific Islander Rate
+CS00AC04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Science - Special Ed Rate
+C200AC04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Science - Two or more races Rate
+CW00AC04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Science - White Rate
+CB00AS04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Social studies - African American Rate
+CA00AS04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Social studies - All Rate
+CI00AS04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Social studies - American Indian Rate
+C300AS04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Social studies - Asian Rate
+CR00AS04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Social studies - At-Risk Rate
+CL00AS04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Social studies - ELL Rate
+CE00AS04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Social studies - Econ Disadv Rate
+CF00AS04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Social studies - Female Rate
+CH00AS04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Social studies - Hispanic Rate
+CM00AS04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Social studies - Male Rate
+C400AS04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Social studies - Pacific Islander Rate
+CS00AS04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Social studies - Special Ed Rate
+C200AS04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Social studies - Two or more races Rate
+CW00AS04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Social studies - White Rate
+CB00A004216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Two or More Subjects - African American Rate
+CA00A004216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Two or More Subjects - All Rate
+CI00A004216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Two or More Subjects - American Indian Rate
+C300A004216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Two or More Subjects - Asian Rate
+CR00A004216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Two or More Subjects - At-Risk Rate
+CL00A004216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Two or More Subjects - ELL Rate
+CE00A004216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Two or More Subjects - Econ Disadv Rate
+CF00A004216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Two or More Subjects - Female Rate
+CH00A004216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Two or More Subjects - Hispanic Rate
+CM00A004216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Two or More Subjects - Male Rate
+C400A004216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Two or More Subjects - Pacific Islander Rate
+CS00A004216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Two or More Subjects - Special Ed Rate
+C200A004216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Two or More Subjects - Two or more races Rate
+CW00A004216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Two or More Subjects - White Rate
+CB00AW04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Writing - African American Rate
+CA00AW04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Writing - All Rate
+CI00AW04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Writing - American Indian Rate
+C300AW04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Writing - Asian Rate
+CR00AW04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Writing - At-Risk Rate
+CL00AW04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Writing - ELL Rate
+CE00AW04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Writing - Econ Disadv Rate
+CF00AW04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Writing - Female Rate
+CH00AW04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Writing - Hispanic Rate
+CM00AW04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Writing - Male Rate
+C400AW04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Writing - Pacific Islander Rate
+CS00AW04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Writing - Special Ed Rate
+C200AW04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Writing - Two or more races Rate
+CW00AW04216R,Campus 2016 STAAR Postsecondary Readiness: Rate of students meeting level 2 requirement for Writing - White Rate
+CB00AM04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Math - African American Numerator
+CA00AM04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Math - All Numerator
+CI00AM04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Math - American Indian Numerator
+C300AM04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Math - Asian Numerator
+CR00AM04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Math - At-Risk Numerator
+CL00AM04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Math - ELL Numerator
+CE00AM04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Math - Econ Disadv Numerator
+CF00AM04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Math - Female Numerator
+CH00AM04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Math - Hispanic Numerator
+CM00AM04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Math - Male Numerator
+C400AM04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Math - Pacific Islander Numerator
+CS00AM04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Math - Special Ed Numerator
+C200AM04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Math - Two or more races Numerator
+CW00AM04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Math - White Numerator
+CB00AR04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Reading - African American Numerator
+CA00AR04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Reading - All Numerator
+CI00AR04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Reading - American Indian Numerator
+C300AR04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Reading - Asian Numerator
+CR00AR04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Reading - At-Risk Numerator
+CL00AR04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Reading - ELL Numerator
+CE00AR04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Reading - Econ Disadv Numerator
+CF00AR04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Reading - Female Numerator
+CH00AR04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Reading - Hispanic Numerator
+CM00AR04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Reading - Male Numerator
+C400AR04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Reading - Pacific Islander Numerator
+CS00AR04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Reading - Special Ed Numerator
+C200AR04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Reading - Two or more races Numerator
+CW00AR04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Reading - White Numerator
+CB00AC04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Science - African American Numerator
+CA00AC04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Science - All Numerator
+CI00AC04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Science - American Indian Numerator
+C300AC04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Science - Asian Numerator
+CR00AC04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Science - At-Risk Numerator
+CL00AC04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Science - ELL Numerator
+CE00AC04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Science - Econ Disadv Numerator
+CF00AC04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Science - Female Numerator
+CH00AC04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Science - Hispanic Numerator
+CM00AC04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Science - Male Numerator
+C400AC04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Science - Pacific Islander Numerator
+CS00AC04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Science - Special Ed Numerator
+C200AC04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Science - Two or more races Numerator
+CW00AC04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Science - White Numerator
+CB00AS04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Social studies - African American Numerator
+CA00AS04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Social studies - All Numerator
+CI00AS04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Social studies - American Indian Numerator
+C300AS04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Social studies - Asian Numerator
+CR00AS04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Social studies - At-Risk Numerator
+CL00AS04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Social studies - ELL Numerator
+CE00AS04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Social studies - Econ Disadv Numerator
+CF00AS04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Social studies - Female Numerator
+CH00AS04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Social studies - Hispanic Numerator
+CM00AS04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Social studies - Male Numerator
+C400AS04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Social studies - Pacific Islander Numerator
+CS00AS04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Social studies - Special Ed Numerator
+C200AS04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Social studies - Two or more races Numerator
+CW00AS04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Social studies - White Numerator
+CB00A004217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Two or More Subjects - African American Numerator
+CA00A004217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Two or More Subjects - All Numerator
+CI00A004217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Two or More Subjects - American Indian Numerator
+C300A004217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Two or More Subjects - Asian Numerator
+CR00A004217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Two or More Subjects - At-Risk Numerator
+CL00A004217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Two or More Subjects - ELL Numerator
+CE00A004217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Two or More Subjects - Econ Disadv Numerator
+CF00A004217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Two or More Subjects - Female Numerator
+CH00A004217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Two or More Subjects - Hispanic Numerator
+CM00A004217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Two or More Subjects - Male Numerator
+C400A004217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Two or More Subjects - Pacific Islander Numerator
+CS00A004217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Two or More Subjects - Special Ed Numerator
+C200A004217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Two or More Subjects - Two or more races Numerator
+CW00A004217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Two or More Subjects - White Numerator
+CB00AW04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Writing - African American Numerator
+CA00AW04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Writing - All Numerator
+CI00AW04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Writing - American Indian Numerator
+C300AW04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Writing - Asian Numerator
+CR00AW04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Writing - At-Risk Numerator
+CL00AW04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Writing - ELL Numerator
+CE00AW04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Writing - Econ Disadv Numerator
+CF00AW04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Writing - Female Numerator
+CH00AW04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Writing - Hispanic Numerator
+CM00AW04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Writing - Male Numerator
+C400AW04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Writing - Pacific Islander Numerator
+CS00AW04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Writing - Special Ed Numerator
+C200AW04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Writing - Two or more races Numerator
+CW00AW04217N,Campus 2017 STAAR Meets Grade Level: Number of students meeting Grade Level Standard requirement for Writing - White Numerator
+CB00AM04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Math - African American Denominator
+CA00AM04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Math - All Denominator
+CI00AM04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Math - American Indian Denominator
+C300AM04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Math - Asian Denominator
+CR00AM04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Math - At-Risk Denominator
+CL00AM04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Math - ELL Denominator
+CE00AM04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Math - Econ Disadv Denominator
+CF00AM04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Math - Female Denominator
+CH00AM04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Math - Hispanic Denominator
+CM00AM04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Math - Male Denominator
+C400AM04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Math - Pacific Islander Denominator
+CS00AM04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Math - Special Ed Denominator
+C200AM04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Math - Two or more races Denominator
+CW00AM04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Math - White Denominator
+CB00AR04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Reading - African American Denominator
+CA00AR04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Reading - All Denominator
+CI00AR04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Reading - American Indian Denominator
+C300AR04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Reading - Asian Denominator
+CR00AR04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Reading - At-Risk Denominator
+CL00AR04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Reading - ELL Denominator
+CE00AR04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Reading - Econ Disadv Denominator
+CF00AR04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Reading - Female Denominator
+CH00AR04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Reading - Hispanic Denominator
+CM00AR04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Reading - Male Denominator
+C400AR04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Reading - Pacific Islander Denominator
+CS00AR04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Reading - Special Ed Denominator
+C200AR04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Reading - Two or more races Denominator
+CW00AR04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Reading - White Denominator
+CB00AC04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Science - African American Denominator
+CA00AC04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Science - All Denominator
+CI00AC04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Science - American Indian Denominator
+C300AC04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Science - Asian Denominator
+CR00AC04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Science - At-Risk Denominator
+CL00AC04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Science - ELL Denominator
+CE00AC04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Science - Econ Disadv Denominator
+CF00AC04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Science - Female Denominator
+CH00AC04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Science - Hispanic Denominator
+CM00AC04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Science - Male Denominator
+C400AC04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Science - Pacific Islander Denominator
+CS00AC04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Science - Special Ed Denominator
+C200AC04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Science - Two or more races Denominator
+CW00AC04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Science - White Denominator
+CB00AS04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Social studies - African American Denominator
+CA00AS04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Social studies - All Denominator
+CI00AS04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Social studies - American Indian Denominator
+C300AS04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Social studies - Asian Denominator
+CR00AS04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Social studies - At-Risk Denominator
+CL00AS04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Social studies - ELL Denominator
+CE00AS04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Social studies - Econ Disadv Denominator
+CF00AS04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Social studies - Female Denominator
+CH00AS04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Social studies - Hispanic Denominator
+CM00AS04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Social studies - Male Denominator
+C400AS04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Social studies - Pacific Islander Denominator
+CS00AS04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Social studies - Special Ed Denominator
+C200AS04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Social studies - Two or more races Denominator
+CW00AS04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Social studies - White Denominator
+CB00A004217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Two or More Subjects - African American Denominator
+CA00A004217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Two or More Subjects - All Denominator
+CI00A004217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Two or More Subjects - American Indian Denominator
+C300A004217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Two or More Subjects - Asian Denominator
+CR00A004217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Two or More Subjects - At-Risk Denominator
+CL00A004217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Two or More Subjects - ELL Denominator
+CE00A004217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Two or More Subjects - Econ Disadv Denominator
+CF00A004217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Two or More Subjects - Female Denominator
+CH00A004217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Two or More Subjects - Hispanic Denominator
+CM00A004217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Two or More Subjects - Male Denominator
+C400A004217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Two or More Subjects - Pacific Islander Denominator
+CS00A004217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Two or More Subjects - Special Ed Denominator
+C200A004217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Two or More Subjects - Two or more races Denominator
+CW00A004217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Two or More Subjects - White Denominator
+CB00AW04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Writing - African American Denominator
+CA00AW04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Writing - All Denominator
+CI00AW04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Writing - American Indian Denominator
+C300AW04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Writing - Asian Denominator
+CR00AW04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Writing - At-Risk Denominator
+CL00AW04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Writing - ELL Denominator
+CE00AW04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Writing - Econ Disadv Denominator
+CF00AW04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Writing - Female Denominator
+CH00AW04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Writing - Hispanic Denominator
+CM00AW04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Writing - Male Denominator
+C400AW04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Writing - Pacific Islander Denominator
+CS00AW04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Writing - Special Ed Denominator
+C200AW04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Writing - Two or more races Denominator
+CW00AW04217D,Campus 2017 STAAR Meets Grade Level: Number of students taking a test in Writing - White Denominator
+CB00AM04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Math - African American Rate
+CA00AM04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Math - All Rate
+CI00AM04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Math - American Indian Rate
+C300AM04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Math - Asian Rate
+CR00AM04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Math - At-Risk Rate
+CL00AM04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Math - ELL Rate
+CE00AM04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Math - Econ Disadv Rate
+CF00AM04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Math - Female Rate
+CH00AM04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Math - Hispanic Rate
+CM00AM04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Math - Male Rate
+C400AM04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Math - Pacific Islander Rate
+CS00AM04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Math - Special Ed Rate
+C200AM04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Math - Two or more races Rate
+CW00AM04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Math - White Rate
+CB00AR04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Reading - African American Rate
+CA00AR04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Reading - All Rate
+CI00AR04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Reading - American Indian Rate
+C300AR04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Reading - Asian Rate
+CR00AR04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Reading - At-Risk Rate
+CL00AR04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Reading - ELL Rate
+CE00AR04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Reading - Econ Disadv Rate
+CF00AR04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Reading - Female Rate
+CH00AR04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Reading - Hispanic Rate
+CM00AR04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Reading - Male Rate
+C400AR04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Reading - Pacific Islander Rate
+CS00AR04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Reading - Special Ed Rate
+C200AR04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Reading - Two or more races Rate
+CW00AR04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Reading - White Rate
+CB00AC04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Science - African American Rate
+CA00AC04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Science - All Rate
+CI00AC04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Science - American Indian Rate
+C300AC04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Science - Asian Rate
+CR00AC04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Science - At-Risk Rate
+CL00AC04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Science - ELL Rate
+CE00AC04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Science - Econ Disadv Rate
+CF00AC04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Science - Female Rate
+CH00AC04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Science - Hispanic Rate
+CM00AC04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Science - Male Rate
+C400AC04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Science - Pacific Islander Rate
+CS00AC04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Science - Special Ed Rate
+C200AC04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Science - Two or more races Rate
+CW00AC04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Science - White Rate
+CB00AS04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Social studies - African American Rate
+CA00AS04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Social studies - All Rate
+CI00AS04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Social studies - American Indian Rate
+C300AS04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Social studies - Asian Rate
+CR00AS04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Social studies - At-Risk Rate
+CL00AS04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Social studies - ELL Rate
+CE00AS04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Social studies - Econ Disadv Rate
+CF00AS04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Social studies - Female Rate
+CH00AS04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Social studies - Hispanic Rate
+CM00AS04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Social studies - Male Rate
+C400AS04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Social studies - Pacific Islander Rate
+CS00AS04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Social studies - Special Ed Rate
+C200AS04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Social studies - Two or more races Rate
+CW00AS04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Social studies - White Rate
+CB00A004217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Two or More Subjects - African American Rate
+CA00A004217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Two or More Subjects - All Rate
+CI00A004217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Two or More Subjects - American Indian Rate
+C300A004217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Two or More Subjects - Asian Rate
+CR00A004217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Two or More Subjects - At-Risk Rate
+CL00A004217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Two or More Subjects - ELL Rate
+CE00A004217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Two or More Subjects - Econ Disadv Rate
+CF00A004217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Two or More Subjects - Female Rate
+CH00A004217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Two or More Subjects - Hispanic Rate
+CM00A004217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Two or More Subjects - Male Rate
+C400A004217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Two or More Subjects - Pacific Islander Rate
+CS00A004217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Two or More Subjects - Special Ed Rate
+C200A004217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Two or More Subjects - Two or more races Rate
+CW00A004217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Two or More Subjects - White Rate
+CB00AW04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Writing - African American Rate
+CA00AW04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Writing - All Rate
+CI00AW04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Writing - American Indian Rate
+C300AW04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Writing - Asian Rate
+CR00AW04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Writing - At-Risk Rate
+CL00AW04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Writing - ELL Rate
+CE00AW04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Writing - Econ Disadv Rate
+CF00AW04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Writing - Female Rate
+CH00AW04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Writing - Hispanic Rate
+CM00AW04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Writing - Male Rate
+C400AW04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Writing - Pacific Islander Rate
+CS00AW04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Writing - Special Ed Rate
+C200AW04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Writing - Two or more races Rate
+CW00AW04217R,Campus 2017 STAAR Meets Grade Level: Rate of students meeting Grade Level Standard requirement for Writing - White Rate
