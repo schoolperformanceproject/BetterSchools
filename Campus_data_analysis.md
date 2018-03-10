@@ -6,8 +6,8 @@
 
 * Following are the campuses in the "Major urban" areas: <talk about percent>
 
-1 ARLINGTON ISD in TARRANT County
-2 AUSTIN ISD in TRAVIS County
+* 1 ARLINGTON ISD in TARRANT County
+*2 AUSTIN ISD in TRAVIS County
 3 DALLAS ISD in DALLAS County
 4 EL PASO ISD in EL PASO County
 5 FORT WORTH ISD in TARRANT County
