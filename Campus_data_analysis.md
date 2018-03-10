@@ -6,17 +6,17 @@
 
 * Following are the campuses in the "Major urban" areas: <talk about percent>
 
-* 1 ARLINGTON ISD in TARRANT County
-*2 AUSTIN ISD in TRAVIS County
-3 DALLAS ISD in DALLAS County
-4 EL PASO ISD in EL PASO County
-5 FORT WORTH ISD in TARRANT County
-6 HOUSTON ISD in HARRIS County
-7 NORTH EAST ISD in BEXAR County
-8 NORTHSIDE ISD in BEXAR County
-9 SAN ANTONIO ISD in BEXAR County
-10 SOCORRO ISD in EL PASO County
-11 YSLETA ISD in EL PASO County
+    * 1 ARLINGTON ISD in TARRANT County
+    * 2 AUSTIN ISD in TRAVIS County
+    * 3 DALLAS ISD in DALLAS County
+    * 4 EL PASO ISD in EL PASO County
+    * 5 FORT WORTH ISD in TARRANT County
+    * 6 HOUSTON ISD in HARRIS County
+    * 7 NORTH EAST ISD in BEXAR County
+    * 8 NORTHSIDE ISD in BEXAR County
+    * 9 SAN ANTONIO ISD in BEXAR County
+    * 10 SOCORRO ISD in EL PASO County
+    * 11 YSLETA ISD in EL PASO County
 
 Following are the campuses in "Non-metro fast Growing" areas: <talk about percent>
 
