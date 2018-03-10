@@ -1,128 +1,128 @@
 
 
-## ANALYSIS A: BASED ON "GEOGRAPHICAL LOCATIONS OF CAMPUSES" vs % PASSING MEAN OF STUDENTS for the batch 2015-2016
+## ANALYSIS A: BASED ON "GEOGRAPHICAL LOCATIONS OF CAMPUSES" vs % MEDIAN PASSING OF STUDENTS for the batch 2015-2016
 
 ### 1. Students from the campuses that fall under "major urban"  and "Non-metro Fast Growing" areas have the highest passing rate of "x%" and "Y%" respectively.
 
-* Following are the campuses in the "Major urban" areas: <talk about percent>
+* Following are the districts of campuses in the "Major urban" areas: <talk about percent>
 
-    * 1 ARLINGTON ISD in TARRANT County
-    * 2 AUSTIN ISD in TRAVIS County
-    * 3 DALLAS ISD in DALLAS County
-    * 4 EL PASO ISD in EL PASO County
-    * 5 FORT WORTH ISD in TARRANT County
-    * 6 HOUSTON ISD in HARRIS County
-    * 7 NORTH EAST ISD in BEXAR County
-    * 8 NORTHSIDE ISD in BEXAR County
-    * 9 SAN ANTONIO ISD in BEXAR County
-    * 10 SOCORRO ISD in EL PASO County
-    * 11 YSLETA ISD in EL PASO County
+    * ARLINGTON ISD in TARRANT County
+    * AUSTIN ISD in TRAVIS County
+    * DALLAS ISD in DALLAS County
+    * EL PASO ISD in EL PASO County
+    * FORT WORTH ISD in TARRANT County
+    * HOUSTON ISD in HARRIS County
+    * NORTH EAST ISD in BEXAR County
+    * NORTHSIDE ISD in BEXAR County
+    * SAN ANTONIO ISD in BEXAR County
+    * SOCORRO ISD in EL PASO County
+    * YSLETA ISD in EL PASO County
 
-Following are the campuses in "Non-metro fast Growing" areas: <talk about percent>
+* Following are the districts of campuses in "Non-metro fast Growing" areas: <talk about percent>
 
-1	ACADEMY ISD in BELL County
-2	ANNA ISD in COLLIN County
-3	CANADIAN ISD in HEMPHILL County
-4	CELINA ISD in COLLIN County
-5	CENTRAL HEIGHTS ISD in NACOGDOCHES County
-6	DOUGLASS ISD in NACOGDOCHES County
-7	FROST ISD in NAVARRO County
-8	HALLETTSVILLE ISD in LAVACA County
-9	HARTS BLUFF ISD in TITUS County
-10	JARRELL ISD in WILLIAMSON County
-11	JOURDANTON ISD in ATASCOSA County
-12	KEENE ISD in JOHNSON County
-13	KENEDY ISD in KARNES County
-14	KNIPPA ISD in UVALDE County
-15	LIPAN ISD in HOOD County
-16	LONDON ISD in NUECES County
-17	MELISSA ISD in COLLIN County
-18	MULLIN ISD in MILLS County
-19	NEW HOME ISD in LYNN County
-20	PAWNEE ISD in BEE County
-21	PRINCETON ISD in COLLIN County
-22	ROSCOE COLLEGIATE ISD in NOLAN County
-23	SANTA GERTRUDIS ISD in KLEBERG County
-24	SHAMROCK ISD in WHEELER County
-25	SMYER ISD in HOCKLEY County
-26	STERLING CITY ISD in STERLING County
-27	SUNNYVALE ISD in DALLAS County
-28	TIOGA ISD in GRAYSON County
-29	VALLEY VIEW ISD in COOKE County
-30	WAELDER ISD in GONZALES County
-31	WINK-LOVING ISD in WINKLER County
+   * ACADEMY ISD in BELL County
+   * ANNA ISD in COLLIN County
+   * CANADIAN ISD in HEMPHILL County
+   * CELINA ISD in COLLIN County
+   * CENTRAL HEIGHTS ISD in NACOGDOCHES County
+   * DOUGLASS ISD in NACOGDOCHES County
+   * FROST ISD in NAVARRO County
+   * HALLETTSVILLE ISD in LAVACA County
+   * HARTS BLUFF ISD in TITUS County
+   * JARRELL ISD in WILLIAMSON County
+   * JOURDANTON ISD in ATASCOSA County
+   * KEENE ISD in JOHNSON County
+   * KENEDY ISD in KARNES County
+   * KNIPPA ISD in UVALDE County
+   * LIPAN ISD in HOOD County
+   * LONDON ISD in NUECES County
+   * MELISSA ISD in COLLIN County
+   * MULLIN ISD in MILLS County
+   * NEW HOME ISD in LYNN County
+   * PAWNEE ISD in BEE County
+   * PRINCETON ISD in COLLIN County
+   * ROSCOE COLLEGIATE ISD in NOLAN County
+   * SANTA GERTRUDIS ISD in KLEBERG County
+   * SHAMROCK ISD in WHEELER County
+   * SMYER ISD in HOCKLEY County
+   * STERLING CITY ISD in STERLING County
+   * SUNNYVALE ISD in DALLAS County
+   * TIOGA ISD in GRAYSON County
+   * VALLEY VIEW ISD in COOKE County
+   * WAELDER ISD in GONZALES County
+   * WINK-LOVING ISD in WINKLER County
 
 ##  Students from the campuses that fall under "Independent Town"  and "Charters" areas have the lowest passing rate of "x%" and "Y%" respectively.
 
 * Following are the campuses in the "Independent Town" areas: <talk about percent> 
-1	ALICE ISD in JIM WELLS County
-2	ANDERSON-SHIRO CISD in GRIMES County
-3	ARANSAS COUNTY ISD in ARANSAS County
-4	ATHENS ISD in HENDERSON County
-5	ATLANTA ISD in CASS County
-6	BASTROP ISD in BASTROP County
-7	BAY CITY ISD in MATAGORDA County
-8	BEEVILLE ISD in BEE County
-9	BELLVILLE ISD in AUSTIN County
-10	BIG SPRING ISD in HOWARD County
-11	BLOOMING GROVE ISD in NAVARRO County
-12	BONHAM ISD in FANNIN County
-13	BRENHAM ISD in WASHINGTON County
-14	BROWNWOOD ISD in BROWN County
-15	CANTON ISD in VAN ZANDT County
-16	COLDSPRING-OAKHURST CISD in SAN JACINTO County
-17	COMFORT ISD in KENDALL County
-18	DAYTON ISD in LIBERTY County
-19	DECATUR ISD in WISE County
-20	EAST CHAMBERS ISD in CHAMBERS County
-21	EL CAMPO ISD in WHARTON County
-22	EVANT ISD in CORYELL County
-23	FLORESVILLE ISD in WILSON County
-24	FREDERICKSBURG ISD in GILLESPIE County
-25	GAINESVILLE ISD in COOKE County
-26	GREENVILLE ISD in HUNT County
-27	HARMONY ISD in UPSHUR County
-28	HENDERSON ISD in RUSK County
-29	HILLSBORO ISD in HILL County
-30	HONDO ISD in MEDINA County
-31	HUGHES SPRINGS ISD in CASS County
-32	HUNTSVILLE ISD in WALKER County
-33	JACKSONVILLE ISD in CHEROKEE County
-34	JASPER ISD in JASPER County
-35	KERRVILLE ISD in KERR County
-36	KINGSVILLE ISD in KLEBERG County
-37	LA GRANGE ISD in FAYETTE County
-38	LA VERNIA ISD in WILSON County
-39	LITTLE CYPRESS-MAURICEVILLE CISD in ORANGE County
-40	LIVINGSTON ISD in POLK County
-41	LUFKIN ISD in ANGELINA County
-42	LULING ISD in CALDWELL County
-43	MARBLE FALLS ISD in BURNET County
-44	MARSHALL ISD in HARRISON County
-45	MINEOLA ISD in WOOD County
-46	MINERAL WELLS ISD in PALO PINTO County
-47	MOUNT PLEASANT ISD in TITUS County
-48	NACOGDOCHES ISD in NACOGDOCHES County
-49	NORTH LAMAR ISD in LAMAR County
-50	PALESTINE ISD in ANDERSON County
-51	PARIS ISD in LAMAR County
-52	PLAINVIEW ISD in HALE County
-53	PLEASANTON ISD in ATASCOSA County
-54	QUITMAN ISD in WOOD County
-55	ROMA ISD in STARR County
-56	SAN FELIPE-DEL RIO CISD in VAL VERDE County
-57	SHEPHERD ISD in SAN JACINTO County
-58	SILSBEE ISD in HARDIN County
-59	SINTON ISD in SAN PATRICIO County
-60	STEPHENVILLE ISD in ERATH County
-61	SULPHUR SPRINGS ISD in HOPKINS County
-62	TEXARKANA ISD in BOWIE County
-63	TOLAR ISD in HOOD County
-64	UVALDE CISD in UVALDE County
-65	VICTORIA ISD in VICTORIA County
-66	WALLER ISD in WALLER County
-67	WHITNEY ISD in HILL County
-68	WINNSBORO ISD in WOOD County
+   * ALICE ISD in JIM WELLS County
+   * ANDERSON-SHIRO CISD in GRIMES County
+   * ARANSAS COUNTY ISD in ARANSAS County
+   * ATHENS ISD in HENDERSON County
+   * ATLANTA ISD in CASS County
+   * BASTROP ISD in BASTROP County
+   * BAY CITY ISD in MATAGORDA County
+   * BEEVILLE ISD in BEE County
+   * BELLVILLE ISD in AUSTIN County
+   * BIG SPRING ISD in HOWARD County
+   * BLOOMING GROVE ISD in NAVARRO County
+   * BONHAM ISD in FANNIN County
+   * BRENHAM ISD in WASHINGTON County
+   * BROWNWOOD ISD in BROWN County
+   * CANTON ISD in VAN ZANDT County
+   * COLDSPRING-OAKHURST CISD in SAN JACINTO County
+   * COMFORT ISD in KENDALL County
+   * DAYTON ISD in LIBERTY County
+   * DECATUR ISD in WISE County
+   * EAST CHAMBERS ISD in CHAMBERS County
+   * EL CAMPO ISD in WHARTON County
+   * EVANT ISD in CORYELL County
+   * FLORESVILLE ISD in WILSON County
+   * FREDERICKSBURG ISD in GILLESPIE County
+   * GAINESVILLE ISD in COOKE County
+   * GREENVILLE ISD in HUNT County
+   * HARMONY ISD in UPSHUR County
+   * HENDERSON ISD in RUSK County
+   * HILLSBORO ISD in HILL County
+   * HONDO ISD in MEDINA County
+   * HUGHES SPRINGS ISD in CASS County
+   * HUNTSVILLE ISD in WALKER County
+   * JACKSONVILLE ISD in CHEROKEE County
+   * JASPER ISD in JASPER County
+   * KERRVILLE ISD in KERR County
+   * KINGSVILLE ISD in KLEBERG County
+   * LA GRANGE ISD in FAYETTE County
+   * LA VERNIA ISD in WILSON County
+   * LITTLE CYPRESS-MAURICEVILLE CISD in ORANGE County
+   * LIVINGSTON ISD in POLK County
+   * LUFKIN ISD in ANGELINA County
+   * LULING ISD in CALDWELL County
+   * MARBLE FALLS ISD in BURNET County
+   * MARSHALL ISD in HARRISON County
+   * MINEOLA ISD in WOOD County
+   * MINERAL WELLS ISD in PALO PINTO County
+   * MOUNT PLEASANT ISD in TITUS County
+   * NACOGDOCHES ISD in NACOGDOCHES County
+   * NORTH LAMAR ISD in LAMAR County
+   * PALESTINE ISD in ANDERSON County
+   * PARIS ISD in LAMAR County
+   * PLAINVIEW ISD in HALE County
+   * PLEASANTON ISD in ATASCOSA County
+   * QUITMAN ISD in WOOD County
+   * ROMA ISD in STARR County
+   * SAN FELIPE-DEL RIO CISD in VAL VERDE County
+   * SHEPHERD ISD in SAN JACINTO County
+   * SILSBEE ISD in HARDIN County
+   * SINTON ISD in SAN PATRICIO County
+   * STEPHENVILLE ISD in ERATH County
+   * SULPHUR SPRINGS ISD in HOPKINS County
+   * TEXARKANA ISD in BOWIE County
+   * TOLAR ISD in HOOD County
+   * UVALDE CISD in UVALDE County
+   * VICTORIA ISD in VICTORIA County
+   * WALLER ISD in WALLER County
+   * WHITNEY ISD in HILL County
+   * WINNSBORO ISD in WOOD County
 
 
 *Following are the campuses in "Charters" areas: <talk about percent>
