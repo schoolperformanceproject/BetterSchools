@@ -464,8 +464,8 @@ def fx_perf(DataFrameA,legend_dict ):
     plt.ylim(0, 100)
 
 
-    plt.xticks(np.arange(min(x), max(x)+1, 10))
-    plt.yticks(np.arange(min(x), max(x)+1, 10))
+    plt.xticks(np.arange(0, 101, 10))
+    plt.yticks(np.arange(0, 101, 10))
 
     fit = np.polyfit(x, y, deg=1)
     plt.plot(x, fit[0] * x + fit[1], color='blue')
